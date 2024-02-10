@@ -1,5 +1,5 @@
-div {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+body > div {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   font-family: "Karla", sans-serif;
   width: 700px;
   margin: auto;
@@ -22,7 +22,6 @@ div > div.down {
 div > div.down > aside {
   background-color: #3eb7b7;
   color: white;
-  margin: 2px;
   flex: 1;
 }
 div > div.down > aside > h4 {
@@ -35,16 +34,18 @@ div > div.down > aside > a {
   text-decoration: none;
   color: white;
   background-color: green;
-  padding: 7px;
+  padding: 10px;
+  padding-left: 75px;
+  padding-right: 75px;
   text-align: center;
+  margin-left: 60px;
 }
 div > div.down > footer {
   background-color: #90dbdc;
   color: white;
-  margin: 2px;
   flex: 1;
 }
 div > div.down > footer > h4 {
 }
-div > div.down > footer > p {
+div > div.down > footer > p.many {
 }
