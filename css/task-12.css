@@ -23,6 +23,7 @@ div > div.down > aside {
   background-color: #3eb7b7;
   color: white;
   flex: 1;
+  padding-left: 15px;
 }
 div > div.down > aside > h4 {
 }
@@ -33,19 +34,23 @@ div > div.down > aside > p.special {
 div > div.down > aside > a {
   text-decoration: none;
   color: white;
-  background-color: green;
+  background-color: #bddd3d;
   padding: 10px;
   padding-left: 75px;
   padding-right: 75px;
   text-align: center;
   margin-left: 60px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 50px;
 }
 div > div.down > footer {
   background-color: #90dbdc;
   color: white;
   flex: 1;
+  padding-left: 15px;
 }
 div > div.down > footer > h4 {
 }
-div > div.down > footer > p.many {
+div > div.down > footer > p {
 }
