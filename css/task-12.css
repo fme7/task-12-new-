@@ -1,6 +1,7 @@
 div {
   border: solid 1px;
   font-family: "Karla", sans-serif;
+  width: 700px;
 }
 div > main {
 }
@@ -13,31 +14,35 @@ div > main > h3 {
 div > main > p {
   color: #afb1b9;
 }
-div > aside {
+div > div.down{
+  display: flex;
+}
+div > div.down > aside {
   background-color: #3eb7b7;
   color: white;
-  display: inline-block;
   border: 1px solid blue;
   margin: 2px;
+  flex: 1;
+
 }
-div > aside > h4 {
+div > div.down > aside > h4 {
 }
-div > aside > p {
+div > div.down > aside > p {
 }
-div > aside > p.special {
+div > div.down > aside > p.special {
 }
-div > aside > a {
+div > div.down > aside > a {
   text-decoration: none;
   color: white;
 }
-div > footer {
+div > div.down > footer {
   background-color: #90dbdc;
   color: white;
-  display: inline-block;
   border: 1px solid blue;
   margin: 2px;
+  flex: 1;
 }
-div > footer > h4 {
+div > div.down > footer > h4 {
 }
-div > footer > p {
+div > div.down > footer > p {
 }
