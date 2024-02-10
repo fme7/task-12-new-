@@ -3,9 +3,10 @@ body > div {
   font-family: "Karla", sans-serif;
   width: 700px;
   margin: auto;
-  padding: 7px;
+  border-radius: 10px;
 }
 div > main {
+  padding: 7px;
 }
 div > main > h2 {
   color: #3eb7b7;
@@ -24,6 +25,7 @@ div > div.down > aside {
   color: white;
   flex: 1;
   padding-left: 15px;
+  border-bottom-left-radius:10px;
 }
 div > div.down > aside > h4 {
 }
@@ -49,6 +51,7 @@ div > div.down > footer {
   color: white;
   flex: 1;
   padding-left: 15px;
+  border-bottom-right-radius:10px;
 }
 div > div.down > footer > h4 {
   font-size: 18px;
